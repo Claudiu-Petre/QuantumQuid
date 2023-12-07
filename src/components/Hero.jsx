@@ -1,7 +1,6 @@
 // import React from 'react'
 
 import { discount, cards } from "../assets"
-// import { cards } from "../assets"
 import styles from "../style"
 import GetStarted from "./GetStarted"
 
@@ -27,7 +26,7 @@ import GetStarted from "./GetStarted"
           <h1 className="flex-1 font-poppins font-semibold 
           ss:text-[72px] text-[52px] text-white
           ss:leading-[100px] leading-[75px]">Quantum<br className="sm:block hidden"/> {" "}
-            <span className="text-gradient">Wallet Tech</span> {" "}
+            <span className="text-gradient">Wallet </span> {" "}
           </h1>
 
           {/* Get Started button */}
@@ -41,9 +40,15 @@ import GetStarted from "./GetStarted"
           ss:leading-[100px] leading-[75px] w-full">Payment Method
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our team of experts uses a methodology to identify
+          Our experts utilize a methodical approach, 
+          assessing APRs and annual fees to pinpoint the most suitable credit cards for your needs. 
+          <br />
+          <br />
+          Correct Credit Score leads to Correct Credit Card!
+        
+          {/* Our team of experts uses a methodology to identify
           the credit cards most likely to fit  your needs.
-          We examine annual percentage rates, annual fees.
+          We examine annual percentage rates, annual fees. */}
         </p>
       </div>
 

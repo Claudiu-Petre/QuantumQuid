@@ -23,15 +23,24 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+
 import cards from "./cards.png";
 import futurebank from "./futurebank.svg";
-import Quantumblue from "./Quantumblue.png";
+// import Quantumblue from "./Quantumblue.png";
+import quantumwhite from "./quantumwhite.png"
+// import Quantumbank from "./Quantumbank.png"
+import greenpearls from "./greenpearls.png"
 
 export {
   airbnb,
+
   cards,
   futurebank,
-  Quantumblue,
+  // Quantumblue,
+  quantumwhite,
+  // Quantumbank,
+  greenpearls,
+
   bill,
   binance,
   card,
