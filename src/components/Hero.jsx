@@ -16,8 +16,8 @@ const Hero = () => {
           <img src={discount} alt="discount"
           className="w-[32px] h-[32px]"/>
           <p className={`${styles.paragraph} ml-2`}>
-          <span className="text-white">20%</span> Discount For {" "}
-          <span className="text-white">1 Month</span> Account
+          <span className="text-white">10%</span> Discount For {" "}
+          <span className="text-white">2 Months</span> Account
           </p>
         </div>
 
@@ -25,8 +25,8 @@ const Hero = () => {
         items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold 
           ss:text-[72px] text-[52px] text-white
-          ss:leading-[100px] leading-[75px]">The Next <br className="sm:block hidden"/> {" "}
-          <span className="text-gradient">Generation</span> {" "}
+          ss:leading-[100px] leading-[75px]">Quantum<br className="sm:block hidden"/> {" "}
+          <span className="text-gradient">Wallet Tech</span> {" "}
           Payment Method
           </h1>
 
