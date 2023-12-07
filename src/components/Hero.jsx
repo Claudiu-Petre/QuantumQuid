@@ -1,10 +1,11 @@
 // import React from 'react'
 
 import { discount, cards } from "../assets"
+// import { cards } from "../assets"
 import styles from "../style"
 import GetStarted from "./GetStarted"
 
-const Hero = () => {
+ const Hero = () => {
   return (
     <section id="home" className={`flex md:flex-row 
     flex-col ${styles.paddingY}`}>
@@ -67,3 +68,4 @@ const Hero = () => {
 }
 
 export default Hero
+

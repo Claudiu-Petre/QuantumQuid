@@ -23,9 +23,15 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import cards from "./cards.png";
+import futurebank from "./futurebank.svg";
+import Quantumblue from "./Quantumblue.png";
 
 export {
   airbnb,
+  cards,
+  futurebank,
+  Quantumblue,
   bill,
   binance,
   card,
