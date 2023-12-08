@@ -25,7 +25,8 @@ import GetStarted from "./GetStarted"
         items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold 
           ss:text-[72px] text-[52px] text-white
-          ss:leading-[100px] leading-[75px]">Quantum<br className="sm:block hidden"/> {" "}
+          ss:leading-[100px] leading-[75px]">Quantum
+          <br className="sm:block hidden"/> {" "}
             <span className="text-gradient">Wallet </span> {" "}
           </h1>
 
@@ -41,7 +42,8 @@ import GetStarted from "./GetStarted"
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Our experts utilize a methodical approach, 
-          assessing APRs and annual fees to pinpoint the most suitable credit cards for your needs. 
+          assessing APRs and annual fees to pinpoint 
+          the most suitable credit cards for your needs. 
           <br />
           <br />
           Correct Credit Score leads to Correct Credit Card!
@@ -55,7 +57,7 @@ import GetStarted from "./GetStarted"
       <div className={`flex-1 flex ${styles.flexCenter} 
       md:my-0 my-10 relative`}>
         <img src={cards} alt="billing" className="w-[100%] h-[100%]
-        relative z-5" />
+        relative ml-12 z-[5]" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />

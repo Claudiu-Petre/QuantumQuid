@@ -10,8 +10,9 @@ const Business = () => {
     className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          You focus on your business, 
-          <br className="sm:block hidden" />
+          You focus on your business, {" "}
+          <br className="sm:block hidden"/>
+          {/* <br/> */}
           we'll manage the capital!
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
@@ -21,7 +22,12 @@ const Business = () => {
           hundred of credit cards on the market
         </p>
 
-        <Button styles="mt10" />
+        <Button styles="mt-10" />
+        
+{/* The cards */}
+        <div className={`${layout.sectionImg} flex-col`}>
+
+        </div>
 
       </div>
   </section >
