@@ -38,7 +38,7 @@ import GetStarted from "./GetStarted"
 
         <h1 className="font-poppins font-semibold 
           ss:text-[68px] text-[52px] text-white
-          ss:leading-[100px] leading-[75px] w-full">Payment Method
+          ss:leading-[100px] leading-[75px] w-full">Smart Payment
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Our experts utilize a methodical approach, 

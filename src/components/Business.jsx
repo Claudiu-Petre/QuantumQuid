@@ -1,7 +1,17 @@
 
-import { features } from "../constants";
+import { features } from "../constants/index";
 import styles, {layout} from "../style";
 import Button from "./Button"
+
+
+const FeatureCard = ({ icon, title, content, index }) => (
+  <div>
+    <div>
+      <img src={icon} alt="icon" />
+    </div>
+
+  </div>
+)
 
 const Business = () => {
   return (
@@ -23,13 +33,15 @@ const Business = () => {
         </p>
 
         <Button styles="mt-10" />
-        
+      </div>
 {/* The cards */}
         <div className={`${layout.sectionImg} flex-col`}>
-
+          {features.map((feature, index) => (
+            <FeatureCard key={feature.id} {... features} index={index}/>
+          ))}
         </div>
 
-      </div>
+      
   </section >
   )
 }
