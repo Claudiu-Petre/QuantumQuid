@@ -26,9 +26,7 @@ import people03 from "./people03.png";
 
 import cards from "./cards.png";
 import futurebank from "./futurebank.svg";
-// import Quantumblue from "./Quantumblue.png";
 import quantumwhite from "./quantumwhite.png"
-// import Quantumbank from "./Quantumbank.png"
 import greenpearls from "./greenpearls.png"
 
 export {
@@ -36,9 +34,7 @@ export {
 
   cards,
   futurebank,
-  // Quantumblue,
   quantumwhite,
-  // Quantumbank,
   greenpearls,
 
   bill,
